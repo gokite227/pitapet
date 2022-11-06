@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/pitapet/static/css/main.38cfb14e.css",
+    "main.js": "/pitapet/static/js/main.6bb5906c.js",
+    "static/media/cat_main.png": "/pitapet/static/media/cat_main.00c783812d29c7d7b17f.png",
+    "static/media/cat_sub.png": "/pitapet/static/media/cat_sub.f256d3def102954979eb.png",
+    "static/media/portrait_black.png": "/pitapet/static/media/portrait_black.2964dc03207fe178dff3.png",
+    "static/media/login_back.jpg": "/pitapet/static/media/login_back.fb6f21a428deba41a8ef.jpg",
+    "static/media/profile.png": "/pitapet/static/media/profile.c5e1feef91faabc753e7.png",
+    "static/media/icon10.png": "/pitapet/static/media/icon10.578e04e43c97c3c29a01.png",
+    "static/media/icon06.png": "/pitapet/static/media/icon06.d00a8b79c33d7a2eaf2a.png",
+    "static/media/poo.png": "/pitapet/static/media/poo.d00a8b79c33d7a2eaf2a.png",
+    "index.html": "/pitapet/index.html",
+    "main.38cfb14e.css.map": "/pitapet/static/css/main.38cfb14e.css.map",
+    "main.6bb5906c.js.map": "/pitapet/static/js/main.6bb5906c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38cfb14e.css",
+    "static/js/main.6bb5906c.js"
+  ]
+}
