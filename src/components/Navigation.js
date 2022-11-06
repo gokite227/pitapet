@@ -16,7 +16,7 @@ const Navigation = () => (
               <li class="nav-item"><Link class="nav-link me-lg-3" to="/">Home</Link></li>
               <li class="nav-item"><Link class="nav-link me-lg-3" to="/Borad">Borad</Link></li>
               <li class="nav-item"><Link class="nav-link me-lg-3" to="/CalendarApp">Calendar</Link></li>
-              <li class="nav-item"><Link class="nav-link me-lg-3" to="/Map">Map</Link></li>
+              <li class="nav-item"><a class="nav-link me-lg-3" href="https://gokite227.github.io/kakaomapAPI/">Map</a></li>
               <li class="nav-item"><Link class="nav-link me-lg-3" to="/profile">profile</Link></li>
           </ul>
       </div>
