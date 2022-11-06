@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pitapet/static/css/main.38cfb14e.css",
-    "main.js": "/pitapet/static/js/main.6bb5906c.js",
+    "main.js": "/pitapet/static/js/main.414c4a58.js",
     "static/media/cat_main.png": "/pitapet/static/media/cat_main.00c783812d29c7d7b17f.png",
     "static/media/cat_sub.png": "/pitapet/static/media/cat_sub.f256d3def102954979eb.png",
     "static/media/portrait_black.png": "/pitapet/static/media/portrait_black.2964dc03207fe178dff3.png",
@@ -12,10 +12,10 @@
     "static/media/poo.png": "/pitapet/static/media/poo.d00a8b79c33d7a2eaf2a.png",
     "index.html": "/pitapet/index.html",
     "main.38cfb14e.css.map": "/pitapet/static/css/main.38cfb14e.css.map",
-    "main.6bb5906c.js.map": "/pitapet/static/js/main.6bb5906c.js.map"
+    "main.414c4a58.js.map": "/pitapet/static/js/main.414c4a58.js.map"
   },
   "entrypoints": [
     "static/css/main.38cfb14e.css",
-    "static/js/main.6bb5906c.js"
+    "static/js/main.414c4a58.js"
   ]
 }
