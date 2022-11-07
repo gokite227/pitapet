@@ -96,8 +96,8 @@ const Home= () => {
                                 <h1 class="display-1 lh-1 mb-3">Download the app!</h1>
                                 <p class="lead fw-normal text-muted mb-5">앱을 다운로드하여 반려동물의 심박수와 건강을 기록해 보세요.</p>
                                 <div class="d-flex flex-column flex-lg-row align-items-center">
-                                    <a class="me-lg-3 mb-4 mb-lg-0" href="#!"><img class="app-badge" src={require("resources/assets/img/google-play-badge.svg")} alt="구글" /></a>
-                                    <a href="#!"><img class="app-badge" src={require("resources/assets/img/app-store-badge.svg")} alt="애플" /></a>
+                                    <a class="me-lg-3 mb-4 mb-lg-0" href="#!"><img class="app-badge" src="resources/assets/img/google-play-badge.svg" alt="구글" /></a>
+                                    <a href="#!"><img class="app-badge" src="resources/assets/img/app-store-badge.svg" alt="애플" /></a>
                                 </div>
                             </div>
                         </div>
@@ -145,7 +145,7 @@ const Home= () => {
                 <div class="container px-5">
                     <h2 class="text-center text-white font-alt mb-4">Get the app now!</h2>
                     <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center">
-                        <a class="me-lg-3 mb-4 mb-lg-0" href="#!"><img class="app-badge" src={require("resources/assets/img/google-play-badge.svg")} alt="..." /></a>
+                        <a class="me-lg-3 mb-4 mb-lg-0" href="#!"><img class="app-badge" src="resources/assets/img/google-play-badge.svg" alt="..." /></a>
                         <a href="#!"><img class="app-badge" src="resources/assets/img/app-store-badge.svg" alt="..." /></a>
                     </div>
                 </div>
