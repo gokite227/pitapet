@@ -8,7 +8,7 @@ const ImageA = ({nweetObj, src}) => {
     <Image
       src={src}
       head={nweetObj.text}
-      subhead={nweetObj.text}
+      subhead=""
       redirectURL="/"
       noShowHead={false}
       zoomWhenHover={true}

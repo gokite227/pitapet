@@ -48,17 +48,18 @@ const Nweet = ({nweetObj, isOwner}) =>{
                 </>
             ):(
                 <>
-                        {nweetObj.attachmentUrl && (
-                            <ImageA nweetObj={nweetObj} src={nweetObj.attachmentUrl} />
-                        )}
-                        
-                    
                     {isOwner && (
                         <>
                         <img onClick={onDeleteClick} src={require(`resources/imgs/x_icon.png`)} style={{width:"30px", height:"30px"}}/>
                         
                         </>
                     )}
+                        {nweetObj.attachmentUrl && (
+                            <ImageA nweetObj={nweetObj} src={nweetObj.attachmentUrl} />
+                        )}
+                        
+                    
+                    
                 </>
             )}
             

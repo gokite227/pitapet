@@ -1,6 +1,8 @@
 import { dbService, storageService } from "fbase";
 import React, { useEffect, useState } from "react";
 import { v4 as uuidv4 } from "uuid";
+import "resources/css/boradWrite.css";
+
 
 
 
@@ -51,7 +53,46 @@ const BoradWrite = ({ userObj }) => {
   };
   const onClearAttachment = () => setAttachment(null);
   return (
-    <div style={{ padding: "10% 0px 0px 0px" }} className="outer-div">
+    <div class="container-contact100">
+    <div class="wrap-contact100">
+        <form class="contact100-form validate-form" onSubmit={onSubmit}>
+            <h1 class="contact100-form-title" >
+            게시글 입력
+            </h1>
+            <div class="wrap-input100 validate-input" data-validate="Please enter your name">
+                <input class="input100 B_input" type="text" name="name"
+                value={nweet}
+            onChange={onChange}
+            placeholder="한줄 소개를 작성해 주세요"/>
+                <span class="focus-input100"></span>
+            </div>
+            
+            <div class="wrap-input100 validate-input" data-validate="Please enter your message">
+              <textarea class="input100 B_textarea" name="message" placeholder="사진을 선택해주세요"></textarea>
+              <input type="file" accept="image/*" onChange={onFilechange} class="input100 B_input"/>
+              {attachment && (
+            <div class="input100 B_textarea">
+              <img src={attachment} style={{ height: "20vh", padding:"0px 0px 5% 0px" }}  />
+              <button onClick={onClearAttachment}>Clear</button>
+            </div>
+          )}
+                <span class="focus-input100"></span>
+            </div>
+            <div class="container-contact100-form-btn">
+                <button class="contact100-form-btn B_button" type="submit">
+                    <span>
+                        <i class="fa fa-paper-plane-o m-r-6" aria-hidden="true"></i>
+                        Send
+                    </span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+    /* <div style={{ padding: "10% 0px 0px 0px" }} className="outer-div">
       <div>
         <div className="outer-div">
           <h2>게시글 입력</h2>
@@ -81,8 +122,8 @@ const BoradWrite = ({ userObj }) => {
           </div>
         </form>
       </div>
-    </div>
-  );
+    </div> */
+  ); 
 }
 
 
