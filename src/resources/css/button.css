@@ -151,13 +151,12 @@
   width:140px;
   height:50px;
   border:2px solid #d3cbb4;
-  
   text-align:center;
   cursor:pointer;
   position:relative;
   box-sizing:border-box;
   overflow:hidden;
-  margin:0 0 10px 50px;
+  margin:0 0 0px 50px;
 }
 .button-4 a{
   font-family:arial;
