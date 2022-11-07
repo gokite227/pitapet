@@ -297,10 +297,3 @@ const CalendarApp = ({userObj, petObj}) => {
 
 
 export default CalendarApp;
-
-{/* <Test key={cla.id} ClaObj={cla} /> */}
-// {isOwner && isDate &&(
-//   <>
-//     안녕
-//   </>
-// )}

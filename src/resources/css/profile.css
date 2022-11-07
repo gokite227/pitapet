@@ -10,6 +10,19 @@
     -moz-font-smoothing: antialiased;
 } */
 
+.box {
+    width: 110px;
+    height: 110px; 
+    border-radius: 70%;
+    overflow: hidden;
+  }
+  .profile {
+    width: 100%;
+    height: 100%;
+    object-position: 0px -30px;
+    object-fit: cover;
+  }
+
 .profile-nav, .profile-info{
     margin-top:30px;   
 }
