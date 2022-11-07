@@ -13,7 +13,7 @@ const ClaInput = ({name, value, onChange ,type, placeholder, maxLength, img, Cla
     
     
     return (
-    <div style={{float: "left"}}>
+    <div>
         <div>
             <img src={require(`resources/imgs/${img}.png`)} style={{width:"50px", height:"50px"}}/>
             <input 

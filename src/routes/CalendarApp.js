@@ -107,21 +107,16 @@ const CalendarApp = ({userObj, petObj}) => {
     
   })}
   return (
-    <div className="claender_item">
-      <div className=" child noncenter" style={{float: "left"}}>
-        <div className='calendar-container'>
+    <div style={{padding:"100px 0px 0px 0px"}}>
+      <div >
+        <div>
         <Calendar onChange={setDate} value={date} formatDay={(locale, date) => moment(date).format("DD")} />
         </div>
-        <div>
-          {moment(date).format("YYYY년 MM월 DD일")} 
-        </div>
+        
       </div>
-      <div className="child center">
-        <div className="spring"></div>
-        <div className="v-line"></div>
-      </div>
-      <div className="child noncenter">
-      <text fill="#ede9de">상태</text>
+      {/* 달력 */}
+
+      <text>상태</text>
           
             <form onSubmit={onSubmit}>
               <div>{Pets.map((pet) => {
@@ -169,7 +164,6 @@ const CalendarApp = ({userObj, petObj}) => {
               if(cla.creatorId === userObj.uid && cla.createDate === moment(date).format("YYYY년 MM월 DD일")) {
                 return <div>{cla.dry}</div>
               }
-              
               })}
 
               <ClaInput 
@@ -200,8 +194,8 @@ const CalendarApp = ({userObj, petObj}) => {
               if(cla.creatorId === userObj.uid && cla.createDate === moment(date).format("YYYY년 MM월 DD일")) {
                 return <div>{cla.snack}</div>
               }
-              
               })}
+
                 <ClaInput 
                 name='water'
                 value={water} 
@@ -215,8 +209,8 @@ const CalendarApp = ({userObj, petObj}) => {
               if(cla.creatorId === userObj.uid && cla.createDate === moment(date).format("YYYY년 MM월 DD일")) {
                 return <div>{cla.water}</div>
               }
-              
               })}
+
               <ClaInput 
                 name='poo'
                 value={poo} 
@@ -230,7 +224,6 @@ const CalendarApp = ({userObj, petObj}) => {
               if(cla.creatorId === userObj.uid && cla.createDate === moment(date).format("YYYY년 MM월 DD일")) {
                 return <div>{cla.poo}</div>
               }
-              
               })}
               
               <ClaInput 
@@ -246,7 +239,6 @@ const CalendarApp = ({userObj, petObj}) => {
               if(cla.creatorId === userObj.uid && cla.createDate === moment(date).format("YYYY년 MM월 DD일")) {
                 return <div>{cla.symptom}</div>
               }
-              
               })}              
                 
               <ClaInput 
@@ -262,8 +254,8 @@ const CalendarApp = ({userObj, petObj}) => {
               if(cla.creatorId === userObj.uid && cla.createDate === moment(date).format("YYYY년 MM월 DD일")) {
                 return <div>{cla.vomit}</div>
               }
-              
               })}
+
               <ClaInput 
                 name='Pulse'
                 value={Pulse} 
@@ -277,7 +269,6 @@ const CalendarApp = ({userObj, petObj}) => {
               if(cla.creatorId === userObj.uid && cla.createDate === moment(date).format("YYYY년 MM월 DD일")) {
                 return <div>{cla.heart}</div>
               }
-              
               })}                            
               
               <ClaInput 
@@ -294,17 +285,12 @@ const CalendarApp = ({userObj, petObj}) => {
               if(cla.creatorId === userObj.uid && cla.createDate === moment(date).format("YYYY년 MM월 DD일")) {
                 return <div>{cla.diary}</div>
               }
-              
               })}
+
               <div>                            
               <input type="submit" value="쓰기"/>
               </div>
             </form>
-            
-            <div>
-              
-            </div>
-          </div>
     </div>
   );
 }
