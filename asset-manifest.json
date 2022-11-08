@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pitapet/static/css/main.df9fd2c6.css",
-    "main.js": "/pitapet/static/js/main.7e207467.js",
+    "main.css": "/pitapet/static/css/main.46f33391.css",
+    "main.js": "/pitapet/static/js/main.5a5583b5.js",
     "static/media/dog_run.mp4": "/pitapet/static/media/dog_run.f0a05aa57d4c2543439b.mp4",
     "static/media/cat_main.png": "/pitapet/static/media/cat_main.00c783812d29c7d7b17f.png",
     "static/media/demo-screen.mp4": "/pitapet/static/media/demo-screen.80a36ea18da6a003491a.mp4",
@@ -17,11 +17,11 @@
     "static/media/icon06.png": "/pitapet/static/media/icon06.d00a8b79c33d7a2eaf2a.png",
     "static/media/poo.png": "/pitapet/static/media/poo.d00a8b79c33d7a2eaf2a.png",
     "index.html": "/pitapet/index.html",
-    "main.df9fd2c6.css.map": "/pitapet/static/css/main.df9fd2c6.css.map",
-    "main.7e207467.js.map": "/pitapet/static/js/main.7e207467.js.map"
+    "main.46f33391.css.map": "/pitapet/static/css/main.46f33391.css.map",
+    "main.5a5583b5.js.map": "/pitapet/static/js/main.5a5583b5.js.map"
   },
   "entrypoints": [
-    "static/css/main.df9fd2c6.css",
-    "static/js/main.7e207467.js"
+    "static/css/main.46f33391.css",
+    "static/js/main.5a5583b5.js"
   ]
 }
