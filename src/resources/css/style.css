@@ -1,4 +1,10 @@
 @charset "UTF-8";
+
+@media (min-width: 600px) {
+  .appnav {
+    padding:0px 0px 0px 0px;
+  }
+}
 /*!
 * Start Bootstrap - New Age v6.0.6 (https://startbootstrap.com/theme/new-age)
 * Copyright 2013-2022 Start Bootstrap
@@ -4243,6 +4249,8 @@ textarea.form-control-lg {
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
   }
   .navbar-expand-lg .navbar-nav-scroll {
     overflow: visible;
@@ -11323,8 +11331,8 @@ section {
 }
 
 #mainNav {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
   background-color: #fff;
 }
 #mainNav .navbar-brand {

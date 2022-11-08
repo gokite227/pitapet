@@ -24,7 +24,7 @@ const Borad= ({userObj}) => {
     },[]);
     return(
         <div style={{width: "99vw",
-        height: "100vh", backgroundColor:"#EDE9DE", padding:"100px 0px 0px 0px"}}>
+        height: "100vh", backgroundColor:"#fff", padding:"100px 0px 0px 0px"}}>
             <div class="button-4">
                 <div class="eff-4"></div>
                 <Link  to="/Boradwrite">Write</Link>
