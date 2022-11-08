@@ -14,13 +14,14 @@ import CalendarApp from "routes/CalendarApp";
 import Map from "routes/Map";
 import BoradWrite from "routes/BoradWrite";
 import PetWrite from "routes/PetWrite";
+import Loding from "./Loding";
 
 
 
 
 
 
-const AppRouter = ({ isLoggedIn, userObj, petObj}) => {
+const AppRouter = ({ isLoggedIn, userObj, petObj }) => {
   return (
     <Router>
       {isLoggedIn && <Navigation />}
@@ -48,13 +49,16 @@ const AppRouter = ({ isLoggedIn, userObj, petObj}) => {
             <Route exact path="/Petwrite">
               <PetWrite userObj={userObj} />
             </Route>
+            <Route exact path="/Loding">
+              <Loding />
+            </Route>
           </>
         ) : (
           <>
             <Route exact path="/">
               <Auth />
             </Route>
-            
+
           </>
         )}
       </Switch>

@@ -4,7 +4,7 @@ import "resources/css/heartbeatBnt.css";
 const Loding = () => {
     const [alert, setAlert] = useState(false);
     useEffect(() => {
-        const show = setTimeout(() => { setAlert(true) }, 2000);
+        const show = setTimeout(() => { setAlert(true) }, 10000);
     });
 
     return (
