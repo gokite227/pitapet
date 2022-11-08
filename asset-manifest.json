@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/pitapet/static/css/main.8c6685c9.css",
-    "main.js": "/pitapet/static/js/main.958532a5.js",
+    "main.css": "/pitapet/static/css/main.df9fd2c6.css",
+    "main.js": "/pitapet/static/js/main.7e207467.js",
     "static/media/dog_run.mp4": "/pitapet/static/media/dog_run.f0a05aa57d4c2543439b.mp4",
     "static/media/cat_main.png": "/pitapet/static/media/cat_main.00c783812d29c7d7b17f.png",
     "static/media/demo-screen.mp4": "/pitapet/static/media/demo-screen.80a36ea18da6a003491a.mp4",
+    "static/media/heart-beat.gif": "/pitapet/static/media/heart-beat.551982ea86f99e1e272d.gif",
     "static/media/petwrite_3.jpg": "/pitapet/static/media/petwrite_3.6d39964d175a013121db.jpg",
+    "static/media/clawirte.jpg": "/pitapet/static/media/clawirte.e183ade9c83dd4d2bcc5.jpg",
     "static/media/boradwrite.jpg": "/pitapet/static/media/boradwrite.ecfea25da296abf02903.jpg",
     "static/media/cat_sub.png": "/pitapet/static/media/cat_sub.f256d3def102954979eb.png",
     "static/media/portrait_black.png": "/pitapet/static/media/portrait_black.2964dc03207fe178dff3.png",
@@ -15,11 +17,11 @@
     "static/media/icon06.png": "/pitapet/static/media/icon06.d00a8b79c33d7a2eaf2a.png",
     "static/media/poo.png": "/pitapet/static/media/poo.d00a8b79c33d7a2eaf2a.png",
     "index.html": "/pitapet/index.html",
-    "main.8c6685c9.css.map": "/pitapet/static/css/main.8c6685c9.css.map",
-    "main.958532a5.js.map": "/pitapet/static/js/main.958532a5.js.map"
+    "main.df9fd2c6.css.map": "/pitapet/static/css/main.df9fd2c6.css.map",
+    "main.7e207467.js.map": "/pitapet/static/js/main.7e207467.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c6685c9.css",
-    "static/js/main.958532a5.js"
+    "static/css/main.df9fd2c6.css",
+    "static/js/main.7e207467.js"
   ]
 }
