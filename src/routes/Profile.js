@@ -8,6 +8,7 @@ import "resources/css/loginform.css";
 import "resources/css/borad.css";
 import "resources/css/button.css";
 import "resources/css/profile.css";
+import "resources/css/profiletest.css";
 
 
 
@@ -50,12 +51,9 @@ const Profile = ({ isOwner, userObj }) => {
                                             </div>
 
                                             <ul class=" nav-pills nav-stacked">
-                                                <li class="active"><a href="#"> <i class="fa fa-user"></i>Profile</a></li>
-                                                <li><Link to="/Petwrite"><a href="#"><i class="fa fa-edit"></i> Edit profile </a></Link></li>
-                                                <li><a onClick={onLogOutClick}><i class="fa fa-edit" onClick={onLogOutClick}></i>log out</a></li>
-                                                {/* <li><a href="http://172.30.1.20:8080/"><i class="fa fa-edit"></i>하트</a></li> */}
-                                                <li><a href="http://172.20.10.2:8080/"><i class="fa fa-edit"></i>하트</a></li>
-                                                <li><Link to="/Loding"><a href="#"><i class="fa fa-edit"></i> 로딩  </a></Link></li>
+                                                <li class="active"><a href="#"> <i class="fa fa-user"></i> Profile </a></li>
+                                                <li><Link to="/Petwrite"><a href="#">  <i class="fa fa-edit"> </i> 프로필 편집하기 </a></Link></li>
+                                                <li><a onClick={onLogOutClick}><i class="fa fa-edit" onClick={onLogOutClick}> </i> log out </a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -82,37 +80,39 @@ const Profile = ({ isOwner, userObj }) => {
                                         </div>
                                         <div class="panel">
                                             <div class="bio-graph-heading">
-                                                {pet.profile}
+                                                {pet.profile} &#128044;
                                             </div>
                                             <div class="panel-body bio-graph-info">
-                                                <h1>{pet.p_name}를 소개 합니다</h1>
-                                                <div class="row">
-                                                    <div class="bio-row">
-                                                        <p><span>반려동물나이 </span>: {pet.p_age}</p>
-                                                    </div>
-                                                    <div class="bio-row">
-                                                        <p><span>반려동물성별 </span>: {pet.p_gen}</p>
-                                                    </div>
-                                                    <div class="bio-row">
-                                                        <p><span>혈액형 </span>: {pet.blood}</p>
-                                                    </div>
-                                                    <div class="bio-row">
-                                                        <p><span>반려동물 종</span>: {pet.p_num}</p>
-                                                    </div>
-                                                    <div class="bio-row">
-                                                        <p><span>반려동물생일 </span>: {pet.birth}</p>
-                                                    </div>
-                                                    <div class="bio-row">
-                                                        <p><span>중성화 여부 </span>: {pet.neutering}</p>
-                                                    </div>
-                                                    <div class="bio-row">
-                                                        <p><span>기념일 </span>: {pet.anniversary}</p>
-                                                    </div>
-                                                    <div class="bio-row">
-                                                        <p><span>생존상태 </span>: {pet.state}</p>
-                                                    </div>
-                                                    <div class="bio-row">
-                                                        <p><span>질환 </span>: {pet.p_disease}</p>
+                                                <div className="h1_st"><h1>&#128212;{pet.p_name}를 소개 합니다</h1></div>
+                                                <div className="box_wrapper">
+                                                    <div class="row">
+                                                        <div class="bio-row">
+                                                            <p className="underline"><span>반려동물 나이 </span>: {pet.p_age}</p>
+                                                        </div>
+                                                        <div class="bio-row">
+                                                            <p className="underline"><span>반려동물 성별 </span>: {pet.p_gen}</p>
+                                                        </div>
+                                                        <div class="bio-row">
+                                                            <p className="underline"><span>혈액형 </span>: {pet.blood}</p>
+                                                        </div>
+                                                        <div class="bio-row">
+                                                            <p className="underline"><span>반려동물 종</span>: {pet.p_num}</p>
+                                                        </div>
+                                                        <div class="bio-row">
+                                                            <p className="underline"><span>반려동물 생일 </span>: {pet.birth}</p>
+                                                        </div>
+                                                        <div class="bio-row">
+                                                            <p className="underline"><span>중성화 여부 </span>: {pet.neutering}</p>
+                                                        </div>
+                                                        <div class="bio-row">
+                                                            <p className="underline"><span>기념일 </span>: {pet.anniversary}</p>
+                                                        </div>
+                                                        <div class="bio-row">
+                                                            <p className="underline"><span>생존 상태 </span>: {pet.state}</p>
+                                                        </div>
+                                                        <div class="bio-row">
+                                                            <p className="underline"><span>질환 </span>: {pet.p_disease}</p>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>

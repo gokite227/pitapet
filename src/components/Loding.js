@@ -8,7 +8,8 @@ const Loding = () => {
     });
 
     return (
-        <div style={{ padding: "0px 0px 0px 0px" }}>
+        <div style={{ padding: "0px 0px 0px 0px", backgroundColor:"#ede9de", width: "100vw",
+        height: "100vh" }}>
             <img src={require("resources/imgs/heart-beat.gif")} style={{ width: "100vw", height: "90vh" }} />
             {
                 alert === false ?
