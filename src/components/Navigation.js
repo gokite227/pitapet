@@ -8,7 +8,7 @@ const Navigation = () => (
         <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav" style={{ backgroundColor: "#d3cbb4" }} >
             <div class="container px-5">
                 <div class="dropdown">
-                    <a class="navbar-brand fw-bold" href="#page-top">Pit a Pet</a>
+                    <a class="navbar-brand fw-bold" href="https://gokite227.github.io/pitapet/#/">Pit a Pet</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                         Menu
                     </button>
