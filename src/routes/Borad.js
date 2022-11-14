@@ -12,7 +12,7 @@ const Borad= ({userObj}) => {
     const [nweets, setNweets] = useState([]);
     
     useEffect(()=> {
-        //뉴윗 실시간 변동
+        //실시간 변동
         dbService.collection("mweet").onSnapshot((snapshot) => {
             const nweetArray = snapshot.docs.map((doc) => ({
                 id: doc.id,
@@ -33,7 +33,7 @@ const Borad= ({userObj}) => {
             <Masonry id="Masonry Component" column={4} padding="1em 2em">
             
                     {nweets.map((nweet) => (
-                        //뉴윗 리스트 반환, 포롭스 전달
+                        //스트 반환, 포롭스 전달
                         <Nweet 
                             key={nweet.id} 
                             nweetObj={nweet} 

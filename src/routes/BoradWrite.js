@@ -12,7 +12,7 @@ const BoradWrite = ({ userObj }) => {
 
   const onSubmit = async (event) => {
     event.preventDefault();
-    //뉴윗 추가
+    // 추가
     let attachmentUrl = "";
     if (attachment != "") {
       const attachmentRef = storageService

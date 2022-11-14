@@ -131,7 +131,7 @@ const CalendarApp = ({ userObj, petObj }) => {
                   }
                 })}
               </div>
-              <div className="outer" style={{padding: "0px 0px 50px 0px"}}>
+              <div className="outer" style={{ padding: "0px 0px 50px 0px" }}>
                 <Calendar onChange={setDate} value={date} formatDay={(locale, date) => moment(date).format("DD")} />
               </div>
               <form onSubmit={onSubmit}>
@@ -141,11 +141,11 @@ const CalendarApp = ({ userObj, petObj }) => {
                     <div class="input-group">
                       <label class="label">Pet weight</label>
                       <p className="val">
-                      {Clas.map((cla) => {
-                        if (cla.creatorId === userObj.uid && cla.createDate === moment(date).format("YYYY년 MM월 DD일")) {
-                          return <div>{cla.weight}kg</div>
-                        }
-                      })}
+                        {Clas.map((cla) => {
+                          if (cla.creatorId === userObj.uid && cla.createDate === moment(date).format("YYYY년 MM월 DD일")) {
+                            return <div>{cla.weight}kg</div>
+                          }
+                        })}
                       </p>
                       <input
                         class="p_input input--style-4"
@@ -153,18 +153,18 @@ const CalendarApp = ({ userObj, petObj }) => {
                         value={weight}
                         onChange={onChangeCla}
                         type="text"
-                         />
+                      />
                     </div>
                   </div>
                   <div class="col-2">
                     <div class="input-group">
                       <label class="label">Pet Dry</label>
                       <p className="val">
-                      {Clas.map((cla) => {
-                        if (cla.creatorId === userObj.uid && cla.createDate === moment(date).format("YYYY년 MM월 DD일")) {
-                          return <div>{cla.dry}g</div>
-                        }
-                      })}
+                        {Clas.map((cla) => {
+                          if (cla.creatorId === userObj.uid && cla.createDate === moment(date).format("YYYY년 MM월 DD일")) {
+                            return <div>{cla.dry}g</div>
+                          }
+                        })}
                       </p>
                       <input
                         class="p_input input--style-4"
@@ -172,7 +172,7 @@ const CalendarApp = ({ userObj, petObj }) => {
                         value={dry}
                         onChange={onChangeCla}
                         type="text"
-                        
+
                       />
                     </div>
                   </div>
@@ -183,11 +183,11 @@ const CalendarApp = ({ userObj, petObj }) => {
                     <div class="input-group">
                       <label class="label">Pet Wet</label>
                       <p className="val">
-                      {Clas.map((cla) => {
-                        if (cla.creatorId === userObj.uid && cla.createDate === moment(date).format("YYYY년 MM월 DD일")) {
-                          return <div>{cla.wet}g</div>
-                        }
-                      })}
+                        {Clas.map((cla) => {
+                          if (cla.creatorId === userObj.uid && cla.createDate === moment(date).format("YYYY년 MM월 DD일")) {
+                            return <div>{cla.wet}g</div>
+                          }
+                        })}
                       </p>
                       <input
                         class="p_input input--style-4"
@@ -195,18 +195,18 @@ const CalendarApp = ({ userObj, petObj }) => {
                         value={wet}
                         onChange={onChangeCla}
                         type="text"
-                         />
+                      />
                     </div>
                   </div>
                   <div class="col-2">
                     <div class="input-group">
                       <label class="label">Pet snack</label>
                       <p className="val">
-                      {Clas.map((cla) => {
-                        if (cla.creatorId === userObj.uid && cla.createDate === moment(date).format("YYYY년 MM월 DD일")) {
-                          return <div>{cla.snack}g</div>
-                        }
-                      })}
+                        {Clas.map((cla) => {
+                          if (cla.creatorId === userObj.uid && cla.createDate === moment(date).format("YYYY년 MM월 DD일")) {
+                            return <div>{cla.snack}g</div>
+                          }
+                        })}
                       </p>
                       <input
                         class="p_input input--style-4"
@@ -214,7 +214,7 @@ const CalendarApp = ({ userObj, petObj }) => {
                         value={snack}
                         onChange={onChangeCla}
                         type="text"
-                       
+
                       />
                     </div>
                   </div>
@@ -225,11 +225,11 @@ const CalendarApp = ({ userObj, petObj }) => {
                     <div class="input-group">
                       <label class="label">Pet water</label>
                       <p className="val">
-                      {Clas.map((cla) => {
-                        if (cla.creatorId === userObj.uid && cla.createDate === moment(date).format("YYYY년 MM월 DD일")) {
-                          return <div>{cla.water}mL</div>
-                        }
-                      })}
+                        {Clas.map((cla) => {
+                          if (cla.creatorId === userObj.uid && cla.createDate === moment(date).format("YYYY년 MM월 DD일")) {
+                            return <div>{cla.water}mL</div>
+                          }
+                        })}
                       </p>
                       <input
                         class="p_input input--style-4"
@@ -237,18 +237,18 @@ const CalendarApp = ({ userObj, petObj }) => {
                         value={water}
                         onChange={onChangeCla}
                         type="text"
-                         />
+                      />
                     </div>
                   </div>
                   <div class="col-2">
                     <div class="input-group">
                       <label class="label">Pet poo</label>
                       <p className="val">
-                      {Clas.map((cla) => {
-                        if (cla.creatorId === userObj.uid && cla.createDate === moment(date).format("YYYY년 MM월 DD일")) {
-                          return <div>{cla.poo}</div>
-                        }
-                      })}
+                        {Clas.map((cla) => {
+                          if (cla.creatorId === userObj.uid && cla.createDate === moment(date).format("YYYY년 MM월 DD일")) {
+                            return <div>{cla.poo}</div>
+                          }
+                        })}
                       </p>
                       <input
                         class="p_input input--style-4"
@@ -256,7 +256,7 @@ const CalendarApp = ({ userObj, petObj }) => {
                         value={poo}
                         onChange={onChangeCla}
                         type="text"
-                        
+
                       />
                     </div>
                   </div>
@@ -266,11 +266,11 @@ const CalendarApp = ({ userObj, petObj }) => {
                     <div class="input-group">
                       <label class="label">Pet symptom</label>
                       <p className="val">
-                      {Clas.map((cla) => {
-                        if (cla.creatorId === userObj.uid && cla.createDate === moment(date).format("YYYY년 MM월 DD일")) {
-                          return <div>{cla.symptom}</div>
-                        }
-                      })}
+                        {Clas.map((cla) => {
+                          if (cla.creatorId === userObj.uid && cla.createDate === moment(date).format("YYYY년 MM월 DD일")) {
+                            return <div>{cla.symptom}</div>
+                          }
+                        })}
                       </p>
                       <input
                         class="p_input input--style-4"
@@ -278,18 +278,18 @@ const CalendarApp = ({ userObj, petObj }) => {
                         value={symptom}
                         onChange={onChangeCla}
                         type="text"
-                         />
+                      />
                     </div>
                   </div>
                   <div class="col-2">
                     <div class="input-group">
                       <label class="label">Pet vomit</label>
                       <p className="val">
-                      {Clas.map((cla) => {
-                        if (cla.creatorId === userObj.uid && cla.createDate === moment(date).format("YYYY년 MM월 DD일")) {
-                          return <div>{cla.vomit}</div>
-                        }
-                      })}
+                        {Clas.map((cla) => {
+                          if (cla.creatorId === userObj.uid && cla.createDate === moment(date).format("YYYY년 MM월 DD일")) {
+                            return <div>{cla.vomit}</div>
+                          }
+                        })}
                       </p>
                       <input
                         class="p_input input--style-4"
@@ -297,7 +297,7 @@ const CalendarApp = ({ userObj, petObj }) => {
                         value={vomit}
                         onChange={onChangeCla}
                         type="text"
-                        
+
                       />
                     </div>
                   </div>
@@ -308,11 +308,11 @@ const CalendarApp = ({ userObj, petObj }) => {
                     <div class="input-group">
                       <label class="label">Pet heart</label>
                       <p className="val">
-                      {Clas.map((cla) => {
-                        if (cla.creatorId === userObj.uid && cla.createDate === moment(date).format("YYYY년 MM월 DD일")) {
-                          return <div>{cla.heart}</div>
-                        }
-                      })}
+                        {Clas.map((cla) => {
+                          if (cla.creatorId === userObj.uid && cla.createDate === moment(date).format("YYYY년 MM월 DD일")) {
+                            return <div>{cla.heart}</div>
+                          }
+                        })}
                       </p>
                       <input
                         class="p_input input--style-4"
@@ -320,20 +320,20 @@ const CalendarApp = ({ userObj, petObj }) => {
                         value={Pulse}
                         onChange={onChangeCla}
                         type="text"
-                         />
-                        <Link  to="/Loding"><img src={require("resources/imgs/icon10.png")} style={{height:"50px"}}/></Link>
-                        
+                      />
+                      <Link to="/Loding"><img src={require("resources/imgs/icon10.png")} style={{ height: "50px" }} /></Link>
+
                     </div>
                   </div>
                   <div class="col-2">
                     <div class="input-group">
                       <label class="label">Pet diary</label>
                       <p className="val">
-                      {Clas.map((cla) => {
-                        if (cla.creatorId === userObj.uid && cla.createDate === moment(date).format("YYYY년 MM월 DD일")) {
-                          return <div>{cla.diary}</div>
-                        }
-                      })}
+                        {Clas.map((cla) => {
+                          if (cla.creatorId === userObj.uid && cla.createDate === moment(date).format("YYYY년 MM월 DD일")) {
+                            return <div>{cla.diary}</div>
+                          }
+                        })}
                       </p>
                       <input
                         class="p_input input--style-4"
@@ -342,7 +342,7 @@ const CalendarApp = ({ userObj, petObj }) => {
                         onChange={onChangeCla}
 
                         type="text"
-                       
+
                       />
                     </div>
                   </div>
@@ -358,7 +358,7 @@ const CalendarApp = ({ userObj, petObj }) => {
       </div>
 
 
-      
+
     </div>
   );
 }

@@ -23,7 +23,6 @@ const Profile = ({ isOwner, userObj }) => {
     };
     const [Pets, setPets] = useState([])
     useEffect(() => {
-        //뉴윗 실시간 변동
         dbService.collection("Pet").onSnapshot((snapshot) => {
             const petArray = snapshot.docs.map((doc) => ({
                 id: doc.id,
